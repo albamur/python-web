@@ -19,6 +19,12 @@ def links() -> rx.Component:
         link_button(
             "Discord", 
             "Contacta conmigo", 
+            f"mail to:"
+            ),
+        title("Links de interés"),
+        link_button(
+            "Linkedin",
+            "Revisa mi experiencia",
             "https://www.linkedin.com/in/alba-munoz-rodriguez/"
             ),
         width="100%",
